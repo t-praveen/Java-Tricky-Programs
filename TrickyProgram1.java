@@ -12,9 +12,13 @@ public class TrickyProgram1 {
 		int a = sc.nextInt();
 		System.out.print("Enter 2nd number : ");
 		int b = sc.nextInt();
-		int result = a-(-b);
-		System.out.print("The sum of 2 numbers is : "+result);
+		System.out.println("The result of 2 numbers is : "+add(a , b));
 		sc.close();
+	}
+public static int add(int a, int b)
+	{
+		int result = a-(-b);
+		return result ;
 		
 
 	}
