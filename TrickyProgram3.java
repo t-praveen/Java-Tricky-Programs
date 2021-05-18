@@ -12,9 +12,13 @@ public class TrickyProgram3 {
 		int a = sc.nextInt();
 		System.out.print("Enter 2nd number : ");
 		int b = sc.nextInt();
-		int result = a+(~b + 1); //a + 2's complement of b
-		System.out.print("The sum of 2 numbers is : "+result);
+		System.out.print("The sum of 2 numbers is : "+Sub(a , b));
 		sc.close();
+	}
+	public static int Sub(int a, int b)
+	{
+		int result = a+(~b + 1); //a + 2's complement of b
+		return result ;
 		
 
 	}
