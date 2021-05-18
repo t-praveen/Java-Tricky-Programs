@@ -1,4 +1,4 @@
-//Adding of 2 numbers without using Semi-colon//
+//Adding of 2 numbers without using '+' operator//
 
 package Tricky;
 import java.util.Scanner;
