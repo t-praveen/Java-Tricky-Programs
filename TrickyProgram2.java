@@ -12,6 +12,11 @@ public class TrickyProgram2 {
 		int a = sc.nextInt();
 		System.out.print("Enter 2nd number : ");
 		int b = sc.nextInt();
+		System.out.println("The result of 2 numbers is : "+Add(a , b));
+		sc.close();
+	}
+	public static int Add(int a , int b)
+	{
 		int sum = a ^ b ;
 		int carry = a & b ; 
 		while(carry!= 0)
@@ -22,7 +27,7 @@ public class TrickyProgram2 {
 				sum = a ^ b ;
 				carry = a & b ;
 		}
-		System.out.println("The result of 2 numbers is : "+sum); 
+		return sum; 
 		
 
 	}
